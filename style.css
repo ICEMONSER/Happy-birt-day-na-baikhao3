@@ -915,7 +915,7 @@ body {
     background-color: #FF7882;
     transition: all 1s;
     overflow: hidden;
-    font-family: "Inter", serif;
+    font-family: "Thai sarabun", serif;
     color: #fff;
 }
 .boxMail .boxMail-container:hover .card2-content{
@@ -923,12 +923,14 @@ body {
     box-shadow: -1px -1px 5px rgb(0, 0, 0, 0.4);
 }
 .boxMail .boxMail-container .card2 h3{
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Thai Sarabun', cursive;
     padding: 20px 0px 10px 60px;
     opacity: 0;
     visibility: hidden;
     font-size: 25px;
     text-shadow: 0 0 8px #FF7882;
+    margin-left: -30px;
+    margin-top: -10px;
 }
 .boxMail .boxMail-container .card2:hover h3{
     animation: texth3 3s forwards;
